@@ -47,9 +47,9 @@ export default function Navbar() {
                     </a>
                   </Link>
 
-                  <Link href="/workouts">
+                  <Link href="/pricing">
                     <a className="border-transparent text-white hover:border-white inline-flex items-center px-1 pt-1 border-b-2 text-md font-medium">
-                      Workouts
+                      Pricing
                     </a>
                   </Link>
 

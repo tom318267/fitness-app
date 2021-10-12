@@ -41,9 +41,13 @@ const Testimonials = () => {
   return (
     <Layout>
       <div className="Testimonials grid grid-rows-1 px-20 pt-40 h-full">
-        <h1 className="text-center w-full text-5xl font-lato text-white">
+        <h1 className="text-3xl text-white font-extrabold sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           Testimonials
         </h1>
+        <p className="mt-6 font-lato max-w-2xl text-xl text-black">
+          Choose an affordable plan that's packed with the best features for
+          engaging your audience, creating customer loyalty, and driving sales.
+        </p>
         {data.map((customer) => (
           <TestimonialCard key={customer.id} customer={customer} />
         ))}

@@ -7,10 +7,10 @@ const Homepage = () => {
       <div className="Homepage relative">
         <div className="flex flex-col text-center md:text-left justify-center h-screen items-center">
           <div className="text-white font-lato max-w-[300px] md:max-w-[450px]">
-            <h1 className="uppercase text-5xl md:text-6xl">
+            <h1 className="uppercase font-extrabold text-5xl md:text-6xl">
               Our priority is your health!
             </h1>
-            <p className="py-6">
+            <p className="py-6 text-black">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi
               pharetra, iaculis etiam eu nunc, est.
             </p>

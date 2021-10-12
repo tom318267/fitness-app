@@ -9,10 +9,7 @@ const TestimonialCard = ({ customer: { name, img, rating, review } }) => {
 
   return (
     <div className="py-16 lg:py-24">
-      <div
-        data-aos="flip-up"
-        className="relative testimonial card max-w-5xl mx-auto px-4 sm:px-6 lg:px-8"
-      >
+      <div data-aos="flip-up" className="relative testimonial card mx-auto">
         <div className="relative py-24 px-8 bg-indigo-700 rounded-xl shadow-2xl overflow-hidden">
           <div className="relative z-30">
             <StarRatings
