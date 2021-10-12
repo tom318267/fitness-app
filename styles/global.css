@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .Homepage {
+    width: 100vw;
+    height: 100vh;
+    background: url("/images/background-purple.png");
+  }
+
+  .Testimonials {
+    width: 100vw;
+    height: 100vh;
+    background: url("/images/background-purple.png") no-repeat;
+    background-size: cover;
+  }
+
+  .testimonial-card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+}

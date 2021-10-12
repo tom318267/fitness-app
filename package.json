@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.4",
+    "aos": "^2.3.4",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-star-ratings": "^2.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16"
+  }
+}
