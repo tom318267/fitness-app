@@ -41,10 +41,10 @@ const Testimonials = () => {
   return (
     <Layout>
       <div className="Testimonials grid grid-rows-1 px-20 pt-40 h-full">
-        <h1 className="text-3xl text-white font-extrabold sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
+        <h1 className="text-4xl text-white font-extrabold sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           Testimonials
         </h1>
-        <p className="mt-6 font-lato max-w-2xl text-xl text-black">
+        <p className="mt-6 font-lato max-w-2xl text-lg md:text-xl text-black">
           Choose an affordable plan that's packed with the best features for
           engaging your audience, creating customer loyalty, and driving sales.
         </p>

@@ -57,10 +57,10 @@ const Pricing = () => {
   return (
     <Layout>
       <div className="Pricing mx-auto h-full font-lato py-40 px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl text-white font-extrabold sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
+        <h1 className="text-4xl text-white font-extrabold sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           Pricing plans for teams of all sizes
-        </h2>
-        <p className="mt-6 font-lato max-w-2xl text-xl text-black">
+        </h1>
+        <p className="mt-6 font-lato max-w-2xl text-lg md:text-xl text-black">
           Choose an affordable plan that's packed with the best features for
           engaging your audience, creating customer loyalty, and driving sales.
         </p>

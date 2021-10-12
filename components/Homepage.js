@@ -10,7 +10,7 @@ const Homepage = () => {
             <h1 className="uppercase font-extrabold text-5xl md:text-6xl">
               Our priority is your health!
             </h1>
-            <p className="py-6 text-black">
+            <p className="py-6 text-black md:text-xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi
               pharetra, iaculis etiam eu nunc, est.
             </p>
