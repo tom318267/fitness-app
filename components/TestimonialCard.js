@@ -23,7 +23,7 @@ const TestimonialCard = ({ customer: { name, img, rating, review } }) => {
           </div>
           <div className="relative lg:col-span-1">
             <blockquote className="mt-6 text-white">
-              <p className="text-xl font-medium sm:text-2xl">{review}</p>
+              <p className="text-lg font-medium sm:text-xl">{review}</p>
               <footer className="mt-6">
                 <p className="flex flex-col font-medium">
                   <span className="text-xl">- {name}</span>

@@ -27,12 +27,14 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center sm:justify-start">
-                <div className="flex-shrink-0 flex items-center">
-                  <img
-                    className="block h-10 w-auto"
-                    src="/images/logo-noname.svg"
-                    alt="Workflow"
-                  />
+                <div className="flex-shrink-0 cursor-pointer flex items-center">
+                  <Link href="/">
+                    <img
+                      className="block h-10 w-auto"
+                      src="/images/logo-noname.svg"
+                      alt="Joyeux Nutrition"
+                    />
+                  </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex font-lato sm:space-x-8">
                   <Link href="/">

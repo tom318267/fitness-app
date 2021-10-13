@@ -109,8 +109,8 @@ const Pricing = () => {
                 href="#"
                 className={classNames(
                   tier.mostPopular
-                    ? "bg-indigo-500 text-white hover:bg-indigo-600"
-                    : "bg-indigo-50 text-indigo-700 hover:bg-indigo-100",
+                    ? "bg-indigo-500 text-white hover:shadow-xl active:scale-90 transition duration-150 rounded-full hover:bg-indigo-600"
+                    : "bg-indigo-50 text-indigo-700 hover:shadow-xl active:scale-90 transition duration-150 rounded-full hover:bg-indigo-100",
                   "mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium"
                 )}
               >

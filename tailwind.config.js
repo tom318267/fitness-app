@@ -1,3 +1,5 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
@@ -12,7 +14,14 @@ module.exports = {
       purple: "#BB7EBC",
       pink: "#fdd6fd",
     }),
-    extend: {},
+    extend: {
+      textColor: {
+        purple: "#BB7EBC",
+      },
+      outline: {
+        green: "2px solid #4BA82A",
+      },
+    },
   },
   variants: {
     extend: {},
