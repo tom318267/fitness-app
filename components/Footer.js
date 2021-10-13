@@ -104,8 +104,7 @@ const Footer = () => {
               alt="Company name"
             />
             <p className="text-white text-base">
-              Making the world a better place through constructing elegant
-              hierarchies.
+              Fitness is not a destination. It is a way of life.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
